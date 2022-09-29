@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dosis:wght@800&family=Montserrat:ital,wght@0,400;0,500;1,900&family=Nanum+Gothic&family=Poppins:ital,wght@1,900&family=Shadows+Into+Light&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dosis:wght@200;300;800&family=Montserrat:wght@400;500&family=Nanum+Gothic&family=Shadows+Into+Light&display=swap");
+
+body,
+html {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bgimg-1 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./fotos/abrazobw.jpg");
+  min-height: 100vh;
+  text-align: center;
+}
+
+.caption {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  text-align: center;
+  background-image: url("./fotos/abrazo.jpg");
+  min-height: 100vh;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.como{
+  text-align: center;
+}
+.como1{
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.intro {
+  padding-top: 10%;
+  border: none !important;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+}
+.intro2 {
+  padding-top: 10%;
+  border: none !important;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+}
+
+.inicio {
+  position: relative;
+  margin-top: 600px;
+}
+
+.video {
+  position: relative;
+  background-color: black !important;
+}
+.navdeco {
+  background-color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+}
+.navbar-text a {
+  color: rgb(255, 185, 159) !important;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.navbar-brand {
+  color: rgb(248, 174, 147) !important;
+  font-size: 50px !important;
+  font-family: "Poppins", sans-serif;
+  margin-right: 5rem;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255)!important;
+}
+
+.botonlogin {
+  border: none;
+  background-color: rgb(0, 0, 0)!important;
+  color: aliceblue;
+  margin-right: 5rem;
+  border-radius: 10rem;
+  padding: 2rem;
+  font-size: 30px;
+}
+
+.footercss {
+  background-color: rgb(0, 0, 0);
+  padding-top: 1rem;
+  color: rgb(255, 196, 175);
+  position: relative;
+}
+.inicio {
+  top: 50%;
+  background-color: black !important;
+}
+.iniciorow {
+  padding: 5rem;
+  background-color: black !important;
+  color: whitesmoke;
+}
+
+.imagen1 {
+  background: url(./fotos/perrobw.jpg);
+  background-attachment: fixed;
+  background-position: right;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  padding: 20rem;
+}
+
+.logo1 {
+  background: url(./fotos/Redondosinfondo.png);
+  background-attachment: fixed;
+  background-position: left;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  padding: 20rem;
+  top: 10%;
+}
+
+.textop {
+  margin: 6rem;
+  text-align: center;
+  justify-content: center;
+  line-height: 25px;
+}
+
+
+
+
+/*CARD*/
+.card {
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 50px;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+
+.card p {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-size: 10px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.return_button {
+  position: absolute;
+  background: transparent;
+  bottom: 50%;
+  border: none;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  left: 0;
+  color: white;
+  font-size: 10px;
+  border-radius: 60%;
+  padding: 4px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+}
+
+.next_button {
+  position: absolute;
+  background: transparent;
+  bottom: 50%;
+  border: none;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  right: 0;
+  color: white;
+  font-size: 10px;
+  border-radius: 60%;
+  padding: 4px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tinderCards__cardContainer {
+  justify-content: center;
+  margin-top: 10rem;
+  position: relative;
+}
+
+/*stacks cards on top of each other */
+
+.swipe {
+  position: absolute;
+  text-align: center;
+}
+/*matches*/
+.CardImg {
+  margin-top: 10%;
+  width: 280px;
+  height: 380px;
+  border-radius: 8px;
+}
+
+.mns {
+  display: none;
+}
+
+.Matches {
+  background-repeat: no-repeat;
+  border: none;
+  margin: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  transition: all 0.3s;
+  display: none;
+}
+
+.Matches:hover {
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.Text_Card_match {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px #333333;
+}
+
+.img_Matches {
+  border-radius: 8px;
+}
+
+.section2 {
+  height: 675px;
+}
+
+.Text_Card_Decision {
+  position: absolute;
+  left: 55%;
+  top: 65%;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #333333;
+}
+
+.bienvenido{
+  background-color: black!important;
+  border: none!important;
+  color: rgb(255, 174, 144)!important;
+  cursor: pointer;
+  transform: translateZ(0) scale(1)!important;
+  transition: transform 0.2s!important;
+  touch-action: manipulation!important;
+}
+
+.bienvenido:not(:disabled):hover {
+  transform: scale(1.05)!important;
+}
+
+.bienvenido:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(0.125rem)!important;
+}
+
+.bienvenido:focus {
+  outline: 0 solid transparent!important;
+}
+
+.bienvenido:focus:before {
+  content: "";
+  left: calc(-1 * 0.375rem)!important;
+  pointer-events: none!important;
+  position: absolute!important;
+  top: calc(-1 * 0.375rem)!important;
+  transition: border-radius!important;
+  user-select: none!important;
+}
+
+.bienvenido:focus:not(:focus-visible) {
+  outline: 0 solid transparent!important;
+}
+
+.bienvenido:focus:not(:focus-visible):before {
+  border-width: 0!important;
+}
+
+.bienvenido:not(:disabled):active {
+  transform: translateY(0.125rem)!important;
+  text-decoration-line: underline!important;
+}
+.button-80 {
+  position: relative;
+  border: none;
+  background: coral;
+  backface-visibility: hidden;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+  color:white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  padding: 0.875rem 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+  margin-top: 2rem!important;
+}
+
+.button-80:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-80:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(0.125rem);
+}
+
+.button-80:focus {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:before {
+  content: "";
+  left: calc(-1 * 0.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1 * 0.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-80:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.button-80:not(:disabled):active {
+  transform: translateY(0.125rem);
+  text-decoration-line: underline;
+}
+
+.Menu {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.chat{
+  width: 300px;
+  height: 300px;
+}
+
+.btnderecha{
+float: right;
+border:1px solid  rgb(193, 251, 148)!important;
+border-radius: 10px;
+padding: 0.2rem;
+background-color: rgb(172, 214, 172)!important;
+
+}
+.btnizq{
+  border:1px solid  rgb(255, 194, 172)!important;
+  border-radius: 10px;
+  padding: 0.2rem;
+  background-color: rgb(255, 194, 172);
+}
+.chatchat{
+  background-color: coral!important;
+  border: none!important;
+}
+
+.mns{
+padding: 2rem;
+
+}
+
+.btnmns{
+margin:2rem;
+background-color: coral!important;
+border: none!important;
+float: center;
+}
+
+.fotousuariochat{
+  background-image: url(./fotos/pexels-harrison-haines-3204051.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  float: left;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.nombreusuariochat{
+  float: right;
+  margin-top: 2rem;
+}
+
+
+
+@media (max-width: 500px) {
+  .textop {
+    margin: 0;
+  }
+
+  .caption {
+    top: 90%;
+  }
+  .navbar-brand {
+    color: rgb(248, 174, 147) !important;
+    font-size: 30px !important;
+    font-family: "Poppins", sans-serif;
+    margin-right: 5rem;
+  }
+  .logonav {
+    width: 70px;
+  }
+
+  .button-80 {
+    top: 400px;
+  }
+  .tinderCards__cardContainer {
+    justify-content: center;
+    margin-top: 5rem;
+    position: relative;
+  }
+  .Matches {
+    background-repeat: no-repeat;
+    border: none;
+    margin: 7px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    position: relative;
+    transition: all 0.3s;
+    display: none;
+    top: 30rem;
+  }
+  .matchesmns{
+    top:25rem;
+}
+.mns {
+    display: none;
+    top: 25rem;
+    position: relative;
+  }
+  .botonlogin {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin-left: 5rem;
+  }
+
+  .intro{
+    font-size: 70px;
+  }
+
+}
+
+.modal {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin-top: 3%;
+}
+
+.modal_header {
+  background-color: black;
+  color: white;
+}
+
+.btn-close{
+  color: white !important;
+  background-color: white !important;
+  font-size: 16px;
+}
+
+.form_group{
+  padding: 5px;
+}
+
+.form_control {
+  font-size: 10px !important;
+  text-transform: lowercase !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.button_save {
+  background-color: #f27532 !important;
+  border: none !important;
+  padding: 6px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.button_save:hover {
+  background-color: #9b4c21 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.button_close {
+  border: none !important;
+  padding: 6px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.button_close:hover {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.botonNombre{
+  background-color: rgb(0, 0, 0)!important;
+  border: none!important;
+  text-shadow: 4px 4px 10px coral!important;
+
+}
+
+.ModalMatch{
+color: coral;
+}
+
+.ModalMatch2{
+  font-size: 17px;
+  color: rgb(30, 30, 30);
+}
+
+.btncontacta{
+  background-color: rgb(96, 155, 96)!important;
+  border: none!important;
+}
+.perfil{
+  background-image: url(./fotos/gatobw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.matchesbtn{
+  background-color: white!important;
+  border: none!important;
+  margin: 2rem;
+  border-radius: 2rem!important;
+}
+
+.tusmatches{
+  
+  padding-top: 2rem;
+  font-size: 50px;
+  color: coral;
+  
+    font-family: "Poppins", sans-serif;
+
+   
+  
+}
+
+.int{
+  font-size: 15px!important;
+  font-style: italic;
+  color: #636363!important;
+  margin-top: 30rem;
+}
